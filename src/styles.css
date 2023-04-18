@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(247 254 231);
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.title {
+  background-color: #d5ff03;
+  width: 100vw;
+  padding: 1.5vmin 3vmin;
+}
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+ol {
+  margin: 3vmin;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.strikeThroughTaskName-true {
+  text-decoration: line-through;
+}
+
+.btn {
+  border-radius: 0.5rem;
+  color: #ffffff;
+  padding: 0.85vmin 4vmin;
+  justify-content: center;
+  text-decoration: none;
+  border: 0;
+  margin: 0.75vmin;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 2.5vmin;
+  font-weight: bold;
+}
+
+.add-new-btn {
+  background-image: linear-gradient(-180deg, #37aee2 0%, #1e96c8 100%);
+  width: 30vw;
+  margin-left: 7vw;
+  font-size: 3vmin;
+}
+
+.add-new-btn:hover {
+  background-image: linear-gradient(-180deg, #1d95c9 0%, #17759c 100%);
+}
+
+.delete-btn {
+  background-color: #f48ec0;
+  border-radius: 0.3rem;
+  padding: 0.75vmin 1vmin;
+}
+
+.delete-btn:hover {
+  background-color: #c80c2b;
+}
+
+.done-btn {
+  background-color: #821ab1;
+  padding: 0.75vmin 1vmin;
+}
+
+.done-btn:hover {
+  background-color: #67148c;
+}
+
+input {
+  border: none;
+  background: #d5ff0380;
+  padding: 0.7vmin 1.2vmin;
+  font-weight: 600;
+  font-family: cursive;
+  color: #000000;
+  font-size: 3vmin;
+}
